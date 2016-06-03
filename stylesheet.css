@@ -1,0 +1,28 @@
+h1{
+background-color:red;
+font-size:50px;
+text-align:center;
+}
+
+
+div#memoryboard{
+height:540px;
+width:540px;
+background-color:#CCC;
+margin:0px auto;
+padding:20px;
+align:center;
+border:#999 1px solid;
+}
+
+div#memoryboard > div {
+background: url(image.jpg);
+border:#000 1px solid;
+width:70px;
+height:70px;
+float:left;
+margin:10px;
+padding:20px;
+font-size:70px;;
+text-align:center;
+}
