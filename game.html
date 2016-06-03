@@ -25,6 +25,45 @@ function newBoard(){
 	}
 	document.getElementById('memoryboard').innerHTML = output;
 }
+function FlipTile(tile,k){
+	if(tile.innerHTML == "" && memory_values.length < 2){
+		tile.style.background ='white';
+		tile.innerHTML = k;
+		if(memory_values.length == 0){
+			memory_values.push(k);
+			memory_ids.push(tile.id);
+		} else if(memory_values.length == 1){
+			memory_values.push(k);
+			memory_ids.push(tile.id);
+
+			if(memory_values[0] == memory_values[1]){
+				tiles_flipped += 2;
+				memory_values = [];
+            	memory_ids = [];
+				
+				if(tiles_flipped == memory_array.length){
+					alert("You won.If u want to play again click ok");
+					document.getElementById('memoryboard').innerHTML = "";
+					newBoard();
+				}
+			} else {
+				function flippingback(){
+			             var tile_1,tile_2;
+				     tile_1 = document.getElementById(memory_ids[0]);
+				     tile_2 = document.getElementById(memory_ids[1]);
+				    tile_1.style.background = 'url(image.jpg) ';
+            	    tile_1.innerHTML = "";
+				    tile_2.style.background = 'url(image.jpg)';
+            	    tile_2.innerHTML = "";
+				    
+				    memory_values = [];
+            	    memory_ids = [];
+				}
+                    setTimeout(flippingback,500);
+			}
+		}
+	}
+}
 </script>
 </head>
 <body>
