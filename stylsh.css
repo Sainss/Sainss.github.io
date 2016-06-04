@@ -7,7 +7,7 @@ font-size: 14px;
 
 }
 #myself{
-
+background-color:#e5e4d7
 margin: 10px;
 font-size:120%;
 padding: 20px;
@@ -16,8 +16,7 @@ text-align:center;
 }
 
 #header{
-
-//background-color:#74AFAD;
+background-color:#74AFAD;
 margin: 10px;
 height: 100px;
 border-radius:5px;
@@ -25,22 +24,22 @@ border-radius:5px;
 
 
 .content{
-
-//background-color:#e5e4d7;
+background:url(content.jpg);
 margin-left: 10px;
 margin-top: 10px;
 margin-bottom: 10px;
 margin-right: 330px;
 font-size:110%;
 padding: 20px;
-color:yellow;
+color:black;
 font-weight:bold;
 border-radius:5px;
 }
 
 
 .sr{
-//background-color:#e5e4d7;
+background:url(content.jpg); 
+background-color:#e5e4d7;
 margin-left: 10px;
 margin-top: 10px;
 margin-bottom: 10px;
@@ -50,7 +49,7 @@ padding: 20px;
 border-radius:5px;
 float:right;
 width:250px;
-color:yellow;
+color:black;
 font-weight:bold;
 clear:right;
 }
@@ -69,11 +68,11 @@ font-size:80%;
 
 h1{
 font-size:140%;
-color:white;
+color:red;
 }
 
 h2{
-color:white;
+color:blue;
 font-size:120%;
 }
 
@@ -124,6 +123,16 @@ color:black;
 background-color:white;
 }
 
+.content a{
+
+text-decoration:none;
+color:blue;
+}
+
+
+.content a:hover{
+color:red;
+}
 
 
 #footer ul{
