@@ -4,8 +4,8 @@ background:url(sac.jpg);
 margin: 0px;
 font-family:verdana,Arial;
 font-size: 14px;
-
 }
+
 #myself{
 background-color:#e5e4d7;
 margin: 10px;
@@ -37,7 +37,6 @@ font-weight:bold;
 border-radius:5px;
 }
 
-
 .sr{
 background:url(content.jpg); 
 background-color:#e5e4d7;
@@ -66,7 +65,6 @@ text-align:center;
 font-size:80%;
 }
 
-
 h1{
 font-size:140%;
 color:red;
@@ -91,9 +89,7 @@ transform: translateY(-50%);
 }
 
 
-
 #navigation ul{
-
 padding: 0px;
 list-style-type: none;
 text-align: center;
@@ -104,14 +100,12 @@ font-size:140%;
 }
 
 #navigation li{
-
 display:inline;
 padding:20px;
 vertical-align:middle;
-
 }
-#navigation a{
 
+#navigation a{
 font-family:Arial;
 text-decoration:none;
 color:white;
@@ -119,7 +113,6 @@ padding:.1em 1.2em;
 }
 
 #navigation a:hover{
-
 color:black;
 background-color:white;
 }
@@ -137,7 +130,6 @@ color:red;
 
 
 #footer ul{
-
 padding: 0px;
 list-style-type: none;
 text-align: center;
@@ -147,14 +139,13 @@ font-size:140%;
 }
 
 #footer li{
-
 display:inline;
 padding:20px;
 vertical-align:middle;
 
 }
-#footer a{
 
+#footer a{
 font-family:Arial;
 text-decoration:none;
 color:white;
