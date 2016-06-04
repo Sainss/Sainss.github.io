@@ -7,7 +7,7 @@ font-size: 14px;
 
 }
 #myself{
-background-color:#e5e4d7
+background-color:#e5e4d7;
 margin: 10px;
 font-size:120%;
 padding: 20px;
@@ -16,6 +16,7 @@ text-align:center;
 }
 
 #header{
+background:url(top.jpg);
 background-color:#74AFAD;
 margin: 10px;
 height: 100px;
